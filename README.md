@@ -1,13 +1,13 @@
-Acepta palabras o frases desde la consola segun el lenguaje definido en lexer.l
-Ejecutar: $ cargo run
+Acepta palabras o frases desde la consola segun el lenguaje definido en lexer.l</br>
+Ejecutar: $ cargo run</br>
 
-Lenguaje aceptado en lexer.l
+Lenguaje aceptado en lexer.l</br>
 
-Como cambiar el lenguaje:
-	- Modificar lexer.l (escrito en rflex)
- 	- ejecutar $ rflex lexer.l
- 	- Se va a generar un nuevo archivo lexer.rs, ese se debe mover a src para reemplazar al archivo con el mismo nombre
- 	- Ejecutar el programa, usando
-	+ Para modo desarrollo $ cargo run
- 	+ Para compilar a ejecutable $ cargo build
- 	- Luego ejecutar en la carpeta target el ejecutabl
+Como cambiar el lenguaje:</br>
+	- Modificar lexer.l (escrito en rflex)</br>
+ 	- ejecutar $ rflex lexer.l</br>
+ 	- Se va a generar un nuevo archivo lexer.rs, ese se debe mover a src para reemplazar al archivo con el mismo nombre </br>
+ 	- Ejecutar el programa, usando:</br>
+	+ Para modo desarrollo $ cargo run</br>
+ 	+ Para compilar a ejecutable $ cargo build</br>
+ 	- Luego ejecutar en la carpeta target el ejecutable</br>

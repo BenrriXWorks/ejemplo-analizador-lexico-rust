@@ -6,7 +6,7 @@ Lenguaje aceptado en lexer.l</br>
 Como cambiar el lenguaje:</br>
 	- Modificar lexer.l (escrito en rflex)</br>
  	- ejecutar $ rflex lexer.l</br>
- 	- Se va a generar un nuevo archivo lexer.rs, ese se debe mover a src para reemplazar al archivo con el mismo nombre </br>
+ 	- Se va a generar un nuevo archivo lexer.rs, reemplazar al archivo de src</br>
  	- Ejecutar el programa, usando:</br>
 	+ Para modo desarrollo $ cargo run</br>
  	+ Para compilar a ejecutable $ cargo build</br>
